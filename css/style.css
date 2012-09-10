@@ -4,12 +4,17 @@ body{
 }
 
 #wrapper{
-	position: absolute;
+	margin: 0 auto;
+	width: 300px;	
+}
+
+
+#search_area{
+	float: left;
 	padding: 15px;
 	background: #404040;
 	width: 300px;
-	left: 50%;
-	margin: 100px 0 0 -170px;
+	margin: 100px 0 0 0;
 }
 
 #loader{
@@ -22,7 +27,6 @@ body{
 }
 
 #results_area{
-	overflow: scroll;
 	margin: 10px 0 0 0;
 }
 
