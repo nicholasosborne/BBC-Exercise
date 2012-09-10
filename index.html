@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>BBC Radio</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/modernizr.js"></script>
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary
+		-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+			!window.jQuery && document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+		</script>
+		<script src="js/main.js"></script>
+		<!--[if lt IE 9]>
+			<script src="dist/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="search_area">
+				<form id="search_form">
+					<input name="query_value" id="query_value" placeholder="Search Here..." type="text" size="30" />
+					<input type="submit" id="submit_button" value="Search" /><div id="loader"></div>
+				</form>
+				<div id="results_area"></div>
+			</div>
+		</div>
+	</body>
+
+</html>

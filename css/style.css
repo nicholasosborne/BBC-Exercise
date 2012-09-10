@@ -1,0 +1,75 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	background: #111111;
+}
+
+#wrapper{
+	padding: 15px;
+	background: #404040;
+	position: fixed;
+	width: 400px;
+	left: 50%;
+	margin: 100px 0 0 -170px;
+}
+
+#loader{
+	margin: 0 0 0 10px;
+	background: url(../images/ajax-loader.gif);
+	width: 16px;
+	height: 16px;
+	position: fixed;
+	display: none;
+}
+
+#results_area{
+	margin: 10px 0 0 0;
+}
+
+#results_area ul{
+	list-style: none;
+}
+
+#results_area li{
+	padding: 10px 5px 5px 5px;
+	margin: 1px 0 0 0;
+	display: block;
+	background: #191919;
+}
+
+
+.programme_title{
+	font-weight: 600;
+	padding: 0 0 0 4px;
+	color: #8c9999;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.no_results{
+	display: block;
+	background: #191919;
+	font-weight: 600;
+	padding: 10px 5px 5px 5px;
+	color: #8c9999;
+	font-size: 16px;
+}
+
+.episode_title a:link, .episode_title a:visited{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.episode_title a:hover{
+	text-decoration: underline;
+}
+
+.episode_synopsis{
+	padding: 3px;
+	display: inline;
+	color: #FFF;
+	font-size: 12px;
+}
