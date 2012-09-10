@@ -4,10 +4,10 @@ body{
 }
 
 #wrapper{
+	position: absolute;
 	padding: 15px;
 	background: #404040;
-	position: fixed;
-	width: 400px;
+	width: 300px;
 	left: 50%;
 	margin: 100px 0 0 -170px;
 }
@@ -17,11 +17,12 @@ body{
 	background: url(../images/ajax-loader.gif);
 	width: 16px;
 	height: 16px;
-	position: fixed;
+	position: absolute;
 	display: none;
 }
 
 #results_area{
+	overflow: scroll;
 	margin: 10px 0 0 0;
 }
 

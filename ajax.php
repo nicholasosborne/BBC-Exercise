@@ -33,14 +33,11 @@ function parse_results($aResult){
 		#Programme Title
 		$hierarchical_title = $value->hierarchical_title;
 
-		#Programme Complete Title
-		$complete_title = $value->complete_title;
-
 		#Programme URL
 		$my_url = $value->my_url;
 	
 		#Package into an Array for JSON return
-		$temp = array('complete_title'=>$complete_title,'hierarchical_title'=>$hierarchical_title,'synopsis'=>$synopsis,'my_url'=>$my_url);
+		$temp = array('hierarchical_title'=>$hierarchical_title,'synopsis'=>$synopsis,'my_url'=>$my_url);
 		
 		#Store Episodes by Programme
 	

@@ -35,13 +35,17 @@ function search() {
 		});
 	
 		$.post("ajax.php", {"function": "search","query": query},function (data) {
-			$('#loader').css('display','none');
-			$('#submit_button').fadeIn();
 			if (data.status == "ok") {
 				$('#results_area').html(data.content);
-			} else if (data.status == "no_results") {
+			}else if (data.status == "no_results") {
 				$('#results_area').html('<span class="no_results">No results found</span>');
+			}else{
+				$('#results_area').html('<span class="no_results">Something went wrong</span>');
 			}
+			
+			$('#loader').css('display','none');
+			$('#submit_button').fadeIn();
+			
 		}, "json");
 
 	}
