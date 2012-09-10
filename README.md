@@ -1,4 +1,4 @@
 BBC-Exercise
 ============
 
-BBC Excercise
+BBC Exercise
